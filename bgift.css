@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background:linear-gradient(rgb(78, 36, 89),pink);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#avatar{
+    width:200px;
+    border-radius: 100%;
+    border:5px solid rgb(53, 50, 46);
+}
+h1, h2, h4{
+    text-shadow: 0px 0px 1px black;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#age{
+    background: rgb(53, 50, 46);
+    padding:5px 10px;
+    border-radius: 7px;
+}
+#date{
+    margin: 0px;
+    background: rgb(53, 50, 46);
+    padding:5px 9px;
+    border-radius: 5px;
+
+}
+.gift-section{
+    margin-top:50px;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.hint{
+    margin-top:0px;
+}
+.gift-avatar{
+    border:5px solid white;
+    border-radius: 10px;
+    background-image: url("giftcover.jpeg");
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    margin:0 auto;
+    
+}
+#gift-avatar-happy:hover{
+    background-image: url("happy-birthday\ \(1\).gif");
+    
+}
+#gift-avatar-entry:hover{
+    background-image: url("entry.webp");
+    
+}
+#gift-avatar-word:hover{
+    background-image: url("genius.gif");
+    
+}
+#gift-avatar-per:hover{
+    background-image: url("kohli.gif");
+    
+}
+#gift-avatar-cheers{
+    height:250px;
+    
+}
+#gift-avatar-cheers:hover{
+
+    background-image: url("cheers.webp");
+}
+#footer{
+    width:500px;
+    margin:40px auto 20px;
+    
+    font-style: italic;
+}
+a{
+    color: white;
+}
